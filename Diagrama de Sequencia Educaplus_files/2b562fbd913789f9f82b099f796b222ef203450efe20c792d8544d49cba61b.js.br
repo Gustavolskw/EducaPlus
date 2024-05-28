@@ -1,0 +1,3 @@
+function UcArj(a,b){const c=new Set;b.forEach(d=>{if(d=d.Action.Class)d=Uc1u(a.cd,d),c.add(Ucrb(d))});return Array.from(c)}var UcBrj=class{constructor(a){this.cd=a}nqd(a,b){if(UcC.$b(a)){let e;var c=a.Da.Sb();if(a.properties.Ate.value){e=a.properties.Ate.value;var d=!!a.properties.EMf.value;c=a.Da.Sb();d||(d=a.properties.Bte.value,null!=d&&null!=d.w&&null!=d.h&&(c.w=d.w,c.h=d.h))}else e=a.rg.className;a=a.Gua(b);a.Action.preserveComments=!0;a.Action.Class=e;a.Action.Properties.BoundingBox=c;return a}return a.Gua()}};
+UcBrj=__decorate([Uct(),__metadata("design:paramtypes",[UcYu])],UcBrj);
+//# sourceURL=/js/application/universalcanvas_app/chunk/gen_800800001000280800800000000000000.js?compiled=1
