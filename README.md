@@ -74,6 +74,14 @@ Dependecies Used for backend of my project were:
 #flyway-core
 		
 ```
+##API Documentation 
+run api and search for those URLs
+```markdown
+
+GET http://localhost:8080/swagger-ui/index.html - Swagger Ui to see endpoints and data
+GET http://localhost:8080/v3/api-docs - Swaager Json Format for endpoints and data
+```
+
 
 ## Database
 The project utilizes [Mysql](https://www.mysql.com/) as the database. The necessary database migrations are managed using Flyway.

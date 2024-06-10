@@ -1,0 +1,17 @@
+sequenceDiagram
+    Usuario->>+SistemaWeb: Formulario de Login
+    SistemaWeb->>Servidor: Requisita login
+    Servidor ->>+ BancoDeDados: Valida e Registra
+    BancoDeDados ->>+Servidor: Retorno de Dados
+    Servidor ->> SistemaWeb: liberação de acesso
+    SistemaWeb ->> Usuario: libera Acesso as telas
+    Usuario ->> SistemaWeb:Cadastra/Responde Atividade
+    SistemaWeb ->> Servidor:Dados Resposta/Atividade
+    Servidor ->> BancoDeDados:Valida Dados e Registra
+    BancoDeDados ->>+Servidor: Retorno de Dados
+    Servidor ->>+SistemaWeb :Envia dados Tratados
+    SistemaWeb ->>+ Usuario: Exibe Atividades/respostas
+    Usuario ->>+ SistemaWeb:Ativa/Desativa usuario
+    SistemaWeb ->>+ Servidor:Envia Requisição de Ativa/Desativa
+    Servidor ->>+ BancoDeDados:Valida e Registra modificação
+    BancoDeDados ->> Servidor: Retorno de dados
