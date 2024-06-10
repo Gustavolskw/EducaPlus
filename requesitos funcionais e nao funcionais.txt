@@ -1,0 +1,63 @@
+REQUISITOS FUNCIONAIS
+
+
+
+Entradas
+R.F. 01 – Registro de usuário para analise: dados necessários – Login, senha, função/Matéria/Motivo / Usuários: todos usuários;
+R.F. 02 – Registro de novo Administrador: dados necessários – Login, senha, função / Usuários: Administrador
+R.F. 03 – registro de atividades: dados necessários – Token de acesso, título, conteúdo e dados do professor / Usuários: Administrador, Professores;
+R.F. 04 – registro de conteúdo extra: dados necessários – Token de acesso, título, conteúdo e dados do professor / Usuários: Administrador, Professores;
+R.F. 05 – registro de notas: dados necessários – Token de acesso, notas/ Usuários: Administrador, Professores;
+R.F. 06 – Registro de Feedbacks: dados necessários – Token de acesso, comentário / Usuários: administrador, Professor, Alunos;
+R.F. 07 – Registro de resposta das atividades postadas: dados necessários – Token de acesso, Resposta / Usuários: Alunos;
+R.F 08 - Registro de Matérias: dados necessários – Token de acesso, Matéria / Usuários: Administrador;
+
+Processos
+R.F. 01 – Autenticação de usuário: dados necessários – Login, senha / Usuários: todos;
+R.F. 02 – Gerenciamento de Usuários: dados necessários – Token de acesso / Usuários: administrador, Professor;
+R.F. 03 – Gerenciamento das atividades: dados necessários – Token de acesso/ Dados Editados | Exclusão / Usuários: administrador, Professor;
+R.F. 04 – Gerenciamento das Conteúdo-extra: dados necessários – Token de acesso/ Dados Editados | Exclusão / Usuários: administrador, Professor;
+
+R.F. 05 – Gerenciamento de Notas: dados necessários – Token de acesso / Usuários: administrador, Professor;
+R.F. 06 – Gerenciamento de Feedbacks: dados necessários – Token de acesso / Usuários: Usuário Criador, Administrador;
+R.F 07 – Processamento de Respostas; 
+R.F 08 – Analise dos dados do aluno cadastrado; 
+R.F 07 – Processamento de Notas; 
+R.F 09 – Geração de Relatórios; 
+R.F 10 – Processamento de Edição de Usuários; 
+R.F 11 – Processamento de Edição de Atividades; 
+R.F 12 – Processamento de Edição de Conteúdo Extra; 
+R.F 13 – Processamento de Edição de Notas; 
+R.F 09 – Processamento de Inativação de Usuário; 
+
+Saídas
+R.F.01 – Relatório de feedbacks;
+R.F 02 – Consulta de Atividades;
+R.F 03 – Consulta de Matérias;
+R.F 04 – Relatório de participação dos alunos;
+R.F 05 – Relatório Notas das Atividades durante o um Período;
+R.F 06 – Relatório de postagens do professor durante o um Período;
+R.F 07 – Exibição de lista Atividades / Conteúdo Extra;
+R.F 08 – Exibição de lista usuários;
+R.F 09 – Exibição de lista Notas;
+R.F 10 – Exibição de lista usuários em Analise;
+R.F 11 – Exibição de Rotas da Aplicação Backend;
+
+
+REQUISITOS NÃO FUNCIONAIS
+
+R.F. 01 – Banco de dados homologados: utilização somente MySQL
+R.F. 02 - Migrações para criação de banco de dados: utilização da dependência do FlywayDb para migração do banco de dados por Scripts .SQL dentro do código do projeto; 
+R.F. 03 – Navegadores homologados: o sistema poderá ser homologado para todos os navegadores
+R.F. 04 – Tecnologia homologados: para funcionalidade do sistema deverá ser utilizado o Java Script no navegador;
+R.F 05 – Servidor Homologado: o sistema terá um servidor apache como dependência interna no código da dependência Spring Web;
+R.F 06 – Segurança padronizada: segurança padronizada e realizada pelo algoritmo do Auth0 via Token JWT;
+R.F 07 – Tecnologias de Processamento de dados: ORM JPA com Querys Customizadas;
+R.F 08 – Vulnerabilidades Evitadas: Criptografia de dados sensíveis, SQL Injection, Tratamento de Erros personalizados;
+R.F 08 - Tecnologias de  processos Back-end: Baseado na Linguagem Java com o uso do Framework Spring Boot 3 na versão 3.2.4 Gerenciado pelo Maven 
+R.F 09 – Dependências do Gerenciador de pacote Maven: Spring Boot Web, Auth0, Spring Security, Spring JPA, FlywayDb, Lombok, MySql Connection, OpenPDF, Swagger.UI;
+R.F 10 – Front-end com Framework Java Script Angular v16 gerenciado pelo NPM com NG Angular CLI / Framework CSS Bootstrap v5.3  
+R.F 11 – Linguagens Front-end: TypeScript, SCSS, HTML;
+R.F 12 – Dependências: Angular Material, File-Saver;
+R.F 13 – Conexão com API feita por biblioteca HttpClient presente no Framework Angular ;
+R.F 14 – Gerenciamento de Acessos realizados por Guarda de rotas;

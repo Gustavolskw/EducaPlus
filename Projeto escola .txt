@@ -1,0 +1,8 @@
+EducaPlus
+Projeto para uma ONG ou para uma Instituição de Ensino que possa fornecer Atividades e Conteúdos Gratuitos de Preparação ou reforço educacionais para seus alunos.
+O intuito do projeto é que uma Instituição possa aderir ao software com a intenção de poder gerenciar cadastros de alunos, professores, e outros educadores, além do mais poder desenvolver e postar atividades interativas e conteúdos inovadores e complementares para os alunos...
+O Software tem o intuito de promover Educação preparatória e reforços educacionais gratuitos de forma a que um Gestor cadastre Professores e Alunos e faça a supervisão dos mesmos, e o professor com uma frequência adicione novas atividades e conteúdos extras para a plataforma, e assim os alunos possam ter acesso à educação de níveis variados em sua mão com zero custo, e os mesmos possam fazer uma avaliação opinativas das atividades realizadas.
+Profissional Gerente escolar – Cadastrar, editar registro e excluir registro de professores e alunos da escola, auditora publicações no didático da escola. 
+
+Professor – publicar novas atividades, material extra como atividades, trechos de livros, material de pesquisa, e matérias a mais e avaliar respostas e responder feedbacks e tirar dúvidas.
+Aluno – acessar atividades, realizar as mesmas e dar feedbacks para atividades assim melhorando cada vez mais a publicação das mesmas. 
